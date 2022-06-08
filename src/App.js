@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+// import React from "react"
+import ButtonDisplay from "./Button/ButtonDisplay"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ const App=()=>{
+    return (
+        <div>
+            <h1 style={{textAlign: "center"}}>Hello World!!!</h1>
+            <p>Hey I am Abhishek</p>
+            <ButtonDisplay btn1="Apple"
+            btn2="Banana"
+            btn3="Cherry"
+            />
+        </div>
+       )
 }
 
-export default App;
+// export function Hello1(){
+//     return (
+//         <div>
+//            <h1>Hello World1!!!</h1>
+//            <p>Hey I am Abhishek1</p>
+//         </div>
+//        )
+// }
+
+export default App
+
+
+
+//  const hello=(a,b)=>{
+
+// }

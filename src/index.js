@@ -1,17 +1,65 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react"
+import ReactDOM from "react-dom"
+import "./style.css"
+import  App from "./App"
+// import {Hello, Hello1} from "./App"
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+
+ReactDOM.render(<App />, document.getElementById("root"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// example of a function
+// function hello(a,b){
+//     // a= 10
+//     // b = 20 
+//     sum = a+b
+//     return sum
+// }
+
+// x = hello(10,20)
+// console.log(x)
+
+// eg of component 
+// jSX => modified html
+// function Hello(){
+//     return (
+//         <div>
+//            <h1>Hello World!!!</h1>
+//            <p>Hey I am Abhishek</p>
+//         </div>
+//        )
+// }
+{/* <Hello></Hello> */}
+{/* <Hello /> */}
+
+
+
+
+
+
